@@ -1,12 +1,15 @@
-# React + Vite
+What is components?
+Ans: Components are Independent and reuseable bits of code. They serve the same purpose as JS functions, but work in isolation and return HTML or JSX to be precise.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*The component name should be in upper case always 
+eg: funcion App () {
+    return
+}
+export default App;
 
-Currently, two official plugins are available:
+Q. What is jsx?
+Ans: JSX allows us to write HTML in React. Jsx makes it easier to write & add HTML in react.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*jsx must return a single parent element
+*jsx element must be properly closed
+*jsx attributes are written using camelCase (eg: className instead of class).
