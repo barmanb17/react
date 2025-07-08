@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import ProductInfo from './components/ProductInfo'
+import Add from './components/Add'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Main/>
       <Footer/>
       <ProductInfo/>
+      <Add/>
       
     </div>
   )
