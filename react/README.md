@@ -20,3 +20,5 @@ Ans: JSX allows us to write HTML in React. Jsx makes it easier to write & add HT
 With jsx you can write expressions inside curly braces. The expressions can be a React variable, or property, or any other valid JavaScript expression. Jsx will execute the expression and return the result.
 
 Lists- In react, you will render lists with some type of loop the javascript map() array method is generally the preferred method.
+
+Props- Props/Properties are arguements passed into react components.

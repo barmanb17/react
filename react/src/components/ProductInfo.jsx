@@ -1,19 +1,24 @@
 import React from 'react'
 
 const ProductInfo = () => {
-    const products = [
-        {id: 1, name: 'Phone', price: 699},
-        {id: 2, name: 'Laptop', price: 999},
-        {id: 3, name: 'Tablet', price: 499},
+    const users = [
+            { id: 1, name: 'John Doe', age: 32 },
+            { id: 2, name: 'Jane Smith', age: 52 },
+            { id: 3, name: 'Alice Johnson', age: 28 },
     ]
   return (
     <div>
-        {products.map((product)=> (
-            <div key={product.id}>
-                <h2>Product name: {product.name}</h2>
-                <h2>Price: {product.price}</h2>
-            </div>
-        ))}
+        {users.map((user)=> {
+            if (user.age > 30) {
+                return (
+                    <div key={user.id}>
+                        <h1>{user.name}</h1>
+                        <p>{user.age}</p>
+                    </div>
+                )
+            }
+            return null;
+        })}
     </div>
   )
 }
