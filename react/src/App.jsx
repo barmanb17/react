@@ -9,6 +9,13 @@ import Person from './components/Person'
 import Product from './components/Product'
 import Card from './components/Card'
 
+
+
+const ValidPassword = ()=> <h1>Valid Password</h1>
+const InvalidPassword = () => <h1>Invalid Password</h1>
+
+const Password = ({isValid}) => isValid ? <ValidPassword/> : <InvalidPassword/>;
+
 const App = () => {
   return (
     <div>
@@ -24,6 +31,8 @@ const App = () => {
         <h1>my card</h1>
         <p>this is some content for card 1</p>
          </Card>
+
+         <Password isValid={true}/>
       
     </div>
   )

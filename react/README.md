@@ -24,3 +24,7 @@ Lists- In react, you will render lists with some type of loop the javascript map
 Props- Props/Properties are arguements passed into react components.
 props allows us to pass data from parent component to a child component
 props are passed to components via HTML attributes.
+
+Conditional rendering:
+Conditional rendering allows us to dynamically display different UI components or content based on specific conditions. This enables us to create more interactive and responsive user experiences.
+IsvalidPassword, ValidPassowrd
