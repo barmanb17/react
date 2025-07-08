@@ -22,3 +22,5 @@ With jsx you can write expressions inside curly braces. The expressions can be a
 Lists- In react, you will render lists with some type of loop the javascript map() array method is generally the preferred method.
 
 Props- Props/Properties are arguements passed into react components.
+props allows us to pass data from parent component to a child component
+props are passed to components via HTML attributes.
