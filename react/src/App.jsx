@@ -8,32 +8,34 @@ import Add from './components/Add'
 import Person from './components/Person'
 import Product from './components/Product'
 import Card from './components/Card'
+import Cart from './components/Cart'
 
 
 
-const ValidPassword = ()=> <h1>Valid Password</h1>
+const ValidPassword = () => <h1>Valid Password</h1>
 const InvalidPassword = () => <h1>Invalid Password</h1>
 
-const Password = ({isValid}) => isValid ? <ValidPassword/> : <InvalidPassword/>;
+const Password = ({ isValid }) => isValid ? <ValidPassword /> : <InvalidPassword />;
 
 const App = () => {
   return (
     <div>
-      <Header/>
-      <Main/>
-      <Footer/>
-      <ProductInfo/>
-      <Add/>
-      <Person name="bijay" age={22}/>
-      <Product name="Iphoen" price={2000}/>
+      <Header />
+      <Main />
+      <Footer />
+      <ProductInfo />
+      <Add />
+      <Person name="bijay" age={22} />
+      <Product name="Iphoen" price={2000} />
 
-       <Card>
+      <Card>
         <h1>my card</h1>
         <p>this is some content for card 1</p>
-         </Card>
+      </Card>
 
-         <Password isValid={true}/>
-      
+      <Password isValid={true} />
+      <Cart/>
+
     </div>
   )
 }
