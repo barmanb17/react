@@ -1,13 +1,11 @@
-import React, { useState } from 'react'
+import React, {useState} from 'react'
 
 const UserStatus = () => {
-    const [loggedIn, setLoggedIn] = useState(true);
-    const [isAdmin, setIsAdmin] = useState(false);
+    const [subscribed, setSubscribed] = useState(true);
+    const [isPremium, setIsPremium] = useState(false);
   return (
     <div>
-       <p>
-        {loggedIn ? isAdmin ? "Welcome Admin" : "Welcome User" : "Please log in"}
-       </p>
+        <h1>{subscribed ? isPremium ? "Thanks for being a premium subscriber" : "You are on the free plan" : "Please subscribe"}</h1>
     </div>
   )
 }
