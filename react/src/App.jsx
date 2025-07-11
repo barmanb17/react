@@ -11,6 +11,7 @@ import Card from './components/Card'
 import Cart from './components/Cart'
 import Weather from './components/Weather'
 import UserStatus from './components/UserStatus'
+import Greeting from './components/Greeting'
 
 
 
@@ -39,6 +40,7 @@ const App = () => {
       <Cart />
       <Weather />
       <UserStatus/>
+      <Greeting timeOfDay="mordning" />
 
     </div>
   )
