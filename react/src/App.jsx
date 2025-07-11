@@ -9,6 +9,8 @@ import Person from './components/Person'
 import Product from './components/Product'
 import Card from './components/Card'
 import Cart from './components/Cart'
+import Weather from './components/Weather'
+import UserStatus from './components/UserStatus'
 
 
 
@@ -34,7 +36,9 @@ const App = () => {
       </Card>
 
       <Password isValid={true} />
-      <Cart/>
+      <Cart />
+      <Weather />
+      <UserStatus/>
 
     </div>
   )
