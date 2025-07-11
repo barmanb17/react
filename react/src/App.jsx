@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaCartArrowDown } from "react-icons/fa";
+
 import Greet from './components/Greet'
 import Header from './components/Header'
 import Main from './components/Main'
@@ -41,6 +43,7 @@ const App = () => {
       <Weather />
       <UserStatus/>
       <Greeting timeOfDay="mordning" />
+      <FaCartArrowDown />
 
     </div>
   )

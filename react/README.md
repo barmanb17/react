@@ -28,3 +28,8 @@ props are passed to components via HTML attributes.
 Conditional rendering:
 Conditional rendering allows us to dynamically display different UI components or content based on specific conditions. This enables us to create more interactive and responsive user experiences.
 IsvalidPassword, ValidPassowrd
+
+
+STATE- State is a way to store and manage data that can change over time and affects how the components renders. We define state using the useState Hook , which allows you to set an initial value and provides a way to update theat state.
+
+HOOKS- hooks are a new addition in React 16.8 , They let us use state other React features whithout writing a class.
