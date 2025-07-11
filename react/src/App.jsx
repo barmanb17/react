@@ -1,57 +1,18 @@
 import React from 'react'
-import { FaCartArrowDown } from "react-icons/fa";
-
-import Greet from './components/Greet'
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import ProductInfo from './components/ProductInfo'
-import Add from './components/Add'
-import Person from './components/Person'
-import Product from './components/Product'
-import Card from './components/Card'
-import Cart from './components/Cart'
-import Weather from './components/Weather'
-import UserStatus from './components/UserStatus'
-import Greeting from './components/Greeting'
-import Math from './components/Math'
-import Friends from './components/Friends';
-import Movie from './components/Movie';
-
-
-
-const ValidPassword = () => <h1>Valid Password</h1>
-const InvalidPassword = () => <h1>Invalid Password</h1>
-
-const Password = ({ isValid }) => isValid ? <ValidPassword /> : <InvalidPassword />;
+import Home from "./pages/Home.jsx"
+import Image from "./pages/Image.jsx"
+import Resume from "./pages/Resume.jsx"
+import Writer from "./pages/Writer.jsx"
+import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Main />
-      <Footer />
-      <ProductInfo />
-      <Add />
-      <Person name="bijay" age={22} />
-      <Product name="Iphoen" price={2000} />
-
-      <Card>
-        <h1>my card</h1>
-        <p>this is some content for card 1</p>
-      </Card>
-
-      <Password isValid={true} />
-      <Cart />
-      <Weather />
-      <UserStatus/>
-      <Greeting timeOfDay="mordning" />
-      <FaCartArrowDown />
-      <Math/>
-      <Friends/>
-      <Movie/>
-
-    </div>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path= "image" element={<Image/>} />
+      <Route path="/resume" element={<Resume/>}/>
+      <Route path="/writer" element={<Writer/>}/>
+    </Routes>
   )
 }
 
