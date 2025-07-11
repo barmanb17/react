@@ -16,6 +16,7 @@ import UserStatus from './components/UserStatus'
 import Greeting from './components/Greeting'
 import Math from './components/Math'
 import Friends from './components/Friends';
+import Movie from './components/Movie';
 
 
 
@@ -48,6 +49,7 @@ const App = () => {
       <FaCartArrowDown />
       <Math/>
       <Friends/>
+      <Movie/>
 
     </div>
   )
