@@ -14,6 +14,7 @@ import Cart from './components/Cart'
 import Weather from './components/Weather'
 import UserStatus from './components/UserStatus'
 import Greeting from './components/Greeting'
+import Math from './components/Math'
 
 
 
@@ -44,6 +45,7 @@ const App = () => {
       <UserStatus/>
       <Greeting timeOfDay="mordning" />
       <FaCartArrowDown />
+      <Math/>
 
     </div>
   )
