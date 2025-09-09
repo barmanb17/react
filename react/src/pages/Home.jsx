@@ -10,6 +10,7 @@ const Home = () => {
             <Link to="/image">Image</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/shortlisting">Shortlisting</Link>
+            <Link to="/notfound">NotFound</Link>
         </nav>
     </div>
   )
